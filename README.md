@@ -2,6 +2,10 @@
 
 **学习型工程项目 / Cross-border Network Lab**｜中文版｜核验日期：2026-10-30
 
+面向零基础学习者的中文网络工程实验教程：从 IP、路由和 DNS 开始，逐步学习 Windows + Linux VPS + WireGuard，并通过配置模板、只读检查脚本和故障练习理解网络路径。
+
+[开始学习](docs/01-network-fundamentals.md) · [阅读完整教材](network-engineering-textbook.md) · [查看配置模板](configs/) · [反馈问题](https://github.com/liuguangyu272/cross-border-network-lab/issues)
+
 > 本仓库是合法、授权的网络工程实验教材，不是匿名保证、跨境电商平台风控规避方案，也不承诺任何业务平台的账号安全。生产环境修改前需备份、审批和维护窗口。示例参数、网段和密钥占位符不可直接当作真实业务配置。
 
 ## 适合谁
@@ -20,7 +24,7 @@
 8. [第八篇：故障排查](docs/08-troubleshooting-lab.md)——10 个场景的系统化诊断。
 9. [第九篇：GitHub 工程](docs/09-github-project.md)——文档、测试、安全和简历表达。
 
-也可阅读仓库外提供的单文件合并版 `network-engineering-textbook.md`。
+也可阅读[单文件合并版教材](network-engineering-textbook.md)。
 
 ## 最终架构
 
@@ -74,3 +78,11 @@ C: Windows ─ WireGuard ─ VPS ─ ISP Proxy ─ Internet
 ## 许可证与贡献
 
 本教程不附加未经选择的开放许可；若准备对外授权使用，请先选择适当 LICENSE。仅在确认无秘密信息的前提下分享仓库。任何贡献应附上所依据的官方文档及验证环境。
+
+## 反馈与交流
+
+欢迎在 [Issues](https://github.com/liuguangyu272/cross-border-network-lab/issues) 提交看不懂的段落、文档错误和实验中的问题。请注明章节、操作系统版本、预期结果及脱敏后的实际现象；尚未完成的实验请直接标注“未测试”。
+
+## English overview
+
+A Chinese-language networking lab for beginners, covering IP addressing, routing, DNS, Linux SSH, WireGuard, application proxy chains, and troubleshooting on Windows and a Linux VPS. Includes example configurations, read-only diagnostic scripts, and an acceptance checklist. Deployment and performance on the reader's infrastructure have not been verified. Start with the [fundamentals](docs/01-network-fundamentals.md) or the [complete textbook](network-engineering-textbook.md). No open-source license has been granted.
