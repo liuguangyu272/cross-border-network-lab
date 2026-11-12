@@ -1,0 +1,36 @@
+# WARNING: these rules protect only UNTRACKED files. Rotate any leaked credentials.
+# Real WireGuard keys/configs
+*.key
+*.private
+*.p12
+*.pem
+*.pfx
+*.conf
+!*.example.conf
+**/wg0.conf
+**/server.key
+**/client.key
+# User-specific secrets
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+private/
+*.pcap
+*.pcapng
+*.har
+# Unredacted log and generated output
+*.log
+logs/
+outputs/
+results/
+*.bak
+*.backup
+# Local development
+.vscode/settings.json
+.idea/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
